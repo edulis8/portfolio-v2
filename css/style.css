@@ -21,8 +21,9 @@ body{
 
 
 
+
 .col-left{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	background-color: white;
 	font-size: 20px;
 	font-family: 'Charter', serif;
@@ -36,7 +37,7 @@ body{
 	padding: 0px;
 }
 
-.innerleft {
+.inner-right {
 	
 	margin: 60px;
 	padding: 0px;
@@ -78,6 +79,30 @@ body{
 	height: 500px;
 }
 
+#eucliddiv{
+	display: none;
+	padding: 0px;
+	
+	max-width: 50rem;
+	height: 500px;
+}
+
+#home {
+
+	padding: 0px;
+	text-align: left;
+	max-width: 50rem;
+	height: 500px;
+}
+
+#home img {
+	/*center!*/
+	margin: 0 auto;
+	width: 21.5rem;
+	border: 5px double steelblue;
+	border-radius:  5px 100px 5px;
+}
+
 span {
 	display: block;
 }
@@ -86,13 +111,39 @@ h1{
 	line-height: 0px;
 }
 
+ul {
+	list-style-type: none;
+}
+
 li, h1 {
 	cursor: pointer;
 }
 
 figure {
+	margin-top: 16rem;
 	padding: 1px;
 }
 
+figcaption {
+	margin-top: 2rem;
+}
+
+.skills {
+	line-height: 3.3rem;
+}
+
+p {
+	margin-top: 1rem;
+}
 
 
+@media screen and (max-width: 760px){
+
+	figure {
+	margin-top: 2rem;
+	padding: 1px;
+}
+		
+
+
+}
