@@ -26,6 +26,7 @@ body{
 	background-color: white;
 	font-size: 20px;
 	font-family: 'Charter', serif;
+
 }
 
 .col-rt {
@@ -39,15 +40,16 @@ body{
 	
 	margin: 60px;
 	padding: 0px;
-	background-color: lightgray;
+	/*background-color: lightgray;*/
 	max-width: 50rem;
 	height: 500px;
+	text-align: center;
 }
 
 #aboutmediv{
 	display: none;
 	padding: 0px;
-	background-color: red;
+	
 	max-width: 50rem;
 	height: 500px;
 }
@@ -55,11 +57,26 @@ body{
 #karmadiv{
 	display: none;
 	padding: 0px;
-	background-color: red;
+	
 	max-width: 50rem;
 	height: 500px;
 }
 
+#silentsongdiv{
+	display: none;
+	padding: 0px;
+	
+	max-width: 50rem;
+	height: 500px;
+}
+
+#streetfighterdiv{
+	display: none;
+	padding: 0px;
+	
+	max-width: 50rem;
+	height: 500px;
+}
 
 span {
 	display: block;
@@ -68,3 +85,14 @@ span {
 h1{
 	line-height: 0px;
 }
+
+li, h1 {
+	cursor: pointer;
+}
+
+figure {
+	padding: 1px;
+}
+
+
+
