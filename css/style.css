@@ -28,7 +28,7 @@ html, body{
 
 .container {
 	min-height: 100%;
-	padding-bottom: 30rem;
+	padding-bottom: 15rem;
 }
 
 ul {
@@ -46,6 +46,10 @@ ul {
 
 }
 
+.col-left ul {
+	line-height: 32px;
+	
+}
 .col-rt {
 	
 	background-color: ghostwhite;
@@ -123,6 +127,8 @@ ul {
 	border-radius:  5px 100px 5px;
 }
 
+
+
 span {
 	display: block;
 }
@@ -190,6 +196,10 @@ figure img {
 	border-radius: 10px;
 }
 
+footer i {
+	color: black;
+}
+
 
 @media screen and (max-width: 760px){
 
@@ -217,7 +227,21 @@ figure img {
 		padding-top: 10px;
 	}
 
+
 	#home {
 		padding-top: 3rem;
+
 	}
+
+	.container {
+		padding-bottom: 6rem;
+	}
+}
+
+@media screen and (max-width: 500px){
+
+	figure img{
+		width: 300px;
+	}
+
 }
