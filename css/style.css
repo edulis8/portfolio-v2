@@ -59,6 +59,10 @@ ul {
 	margin-top: 15px;
 }
 
+.col-rt ul {
+	line-height: 46px;
+}
+
 .inner-right {
 	
 	margin: 60px;
@@ -182,10 +186,12 @@ footer p {
 footer i {
 	display: block;
 	padding: 0 8px;
+	color: black;
+	font-size: 16px;
 }
 
 a {
-	font-size: 16px;
+	font-size: 26px;
 }
 
 a:hover{
@@ -196,9 +202,6 @@ figure img {
 	border-radius: 10px;
 }
 
-footer i {
-	color: black;
-}
 
 
 @media screen and (max-width: 760px){
