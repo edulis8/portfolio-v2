@@ -12,6 +12,7 @@ $(document).ready(function() {
 		$('#streetfighterdiv').hide();
 		$('#eucliddiv').hide();
 		$('#home').hide();
+		$('#shoppingdiv').hide();
 		$('#aboutmediv').fadeIn(500);
 	});
 
@@ -22,6 +23,7 @@ $(document).ready(function() {
 		$('#streetfighterdiv').hide();
 		$('#silentsongdiv').hide();
 		$('#home').hide();
+		$('#shoppingdiv').hide();
 		$('#karmadiv').fadeIn(500);
 	});
 
@@ -32,6 +34,7 @@ $(document).ready(function() {
 		$('#eucliddiv').hide();
 		$('#streetfighterdiv').hide();
 		$('#home').hide();
+		$('#shoppingdiv').hide();
 		$('#silentsongdiv').fadeIn(500);
 	});
 
@@ -42,6 +45,7 @@ $(document).ready(function() {
 		$('#silentsongdiv').hide();
 		$('#eucliddiv').hide();
 		$('#home').hide();
+		$('#shoppingdiv').hide();
 		$('#streetfighterdiv').fadeIn(500);
 	});
 
@@ -52,8 +56,23 @@ $(document).ready(function() {
 		$('#silentsongdiv').hide();
 		$('#streetfighterdiv').hide();
 		$('#home').hide();
+		$('#shoppingdiv').hide();
 		$('#eucliddiv').fadeIn(500);
 	});
+
+
+		$('#shoppinglink').click(function() {
+		/* Act on the event */
+		$('#aboutmediv').hide();
+		$('#karmadiv').hide();
+		$('#silentsongdiv').hide();
+		$('#streetfighterdiv').hide();
+		$('eucliddiv').hide();
+		$('#home').hide();
+		$('#shoppingdiv').fadeIn(500);
+	});
+
+
 
 	$('h1').click(function() {
 		/* Act on the event */
@@ -62,6 +81,7 @@ $(document).ready(function() {
 		$('#silentsongdiv').hide();
 		$('#streetfighterdiv').hide();
 		$('#eucliddiv').hide();
+		$('#shoppingdiv').hide();
 		$('#home').fadeIn(500);
 
 
