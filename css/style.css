@@ -119,6 +119,22 @@ ul {
 	height: 500px;
 }
 
+#rarefruitdiv{
+	display: none;
+	padding: 0px;
+	
+	max-width: 50rem;
+	height: 500px;
+}
+
+#quizdiv{
+	display: none;
+	padding: 0px;
+	
+	max-width: 50rem;
+	height: 500px;
+}
+
 #home {
 
 	padding: 0px;

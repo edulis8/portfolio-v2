@@ -7,6 +7,8 @@ $(document).ready(function() {
 	$('#aboutmelink').click(function() {
 
 		/* Act on the event */
+		$('#rarefruitdiv').hide();
+		$('#quizdiv').hide();
 		$('#karmadiv').hide();
 		$('#silentsongdiv').hide();
 		$('#streetfighterdiv').hide();
@@ -18,6 +20,8 @@ $(document).ready(function() {
 
 	$('#karmalink').click(function() {
 		/* Act on the event */
+		$('#rarefruitdiv').hide();
+		$('#quizdiv').hide();
 		$('#aboutmediv').hide();
 		$('#eucliddiv').hide();
 		$('#streetfighterdiv').hide();
@@ -29,6 +33,8 @@ $(document).ready(function() {
 
 	$('#silentsonglink').click(function() {
 		/* Act on the event */
+		$('#rarefruitdiv').hide();
+		$('#quizdiv').hide();
 		$('#aboutmediv').hide();
 		$('#karmadiv').hide();
 		$('#eucliddiv').hide();
@@ -40,6 +46,8 @@ $(document).ready(function() {
 
 	$('#streetfighterlink').click(function() {
 		/* Act on the event */
+		$('#rarefruitdiv').hide();
+		$('#quizdiv').hide();
 		$('#aboutmediv').hide();
 		$('#karmadiv').hide();
 		$('#silentsongdiv').hide();
@@ -51,6 +59,8 @@ $(document).ready(function() {
 
 	$('#euclidlink').click(function() {
 		/* Act on the event */
+		$('#rarefruitdiv').hide();
+		$('#quizdiv').hide();
 		$('#aboutmediv').hide();
 		$('#karmadiv').hide();
 		$('#silentsongdiv').hide();
@@ -63,6 +73,8 @@ $(document).ready(function() {
 
 		$('#shoppinglink').click(function() {
 		/* Act on the event */
+		$('#rarefruitdiv').hide();
+		$('#quizdiv').hide();
 		$('#aboutmediv').hide();
 		$('#karmadiv').hide();
 		$('#silentsongdiv').hide();
@@ -72,10 +84,35 @@ $(document).ready(function() {
 		$('#shoppingdiv').fadeIn(500);
 	});
 
+		$('#quizlink').click(function() {
+		/* Act on the event */
+		$('#rarefruitdiv').hide();
+		$('#aboutmediv').hide();
+		$('#karmadiv').hide();
+		$('#silentsongdiv').hide();
+		$('#streetfighterdiv').hide();
+		$('eucliddiv').hide();
+		$('#home').hide();
+		$('#quizdiv').fadeIn(500);
+	});
+
+		$('#rarefruitlink').click(function() {
+		/* Act on the event */
+		$('#quizdiv').hide();
+		$('#aboutmediv').hide();
+		$('#karmadiv').hide();
+		$('#silentsongdiv').hide();
+		$('#streetfighterdiv').hide();
+		$('#eucliddiv').hide();
+		$('#home').hide();
+		$('#rarefruitdiv').fadeIn(500);
+	});
 
 
 	$('h1').click(function() {
 		/* Act on the event */
+		$('#rarefruitdiv').hide();
+		$('#quizdiv').hide();
 		$('#aboutmediv').hide();
 		$('#karmadiv').hide();
 		$('#silentsongdiv').hide();
