@@ -79,7 +79,7 @@ $(document).ready(function() {
 		$('#karmadiv').hide();
 		$('#silentsongdiv').hide();
 		$('#streetfighterdiv').hide();
-		$('eucliddiv').hide();
+		$('#eucliddiv').hide();
 		$('#home').hide();
 		$('#shoppingdiv').fadeIn(500);
 	});
@@ -91,7 +91,7 @@ $(document).ready(function() {
 		$('#karmadiv').hide();
 		$('#silentsongdiv').hide();
 		$('#streetfighterdiv').hide();
-		$('eucliddiv').hide();
+		$('#eucliddiv').hide();
 		$('#home').hide();
 		$('#quizdiv').fadeIn(500);
 	});
