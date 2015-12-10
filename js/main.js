@@ -6,123 +6,74 @@ $(document).ready(function() {
 
 	$('#aboutmelink').click(function() {
 
-		/* Act on the event */
-		$('#rarefruitdiv').hide();
-		$('#quizdiv').hide();
-		$('#karmadiv').hide();
-		$('#silentsongdiv').hide();
-		$('#streetfighterdiv').hide();
-		$('#eucliddiv').hide();
-		$('#home').hide();
-		$('#shoppingdiv').hide();
-		$('#aboutmediv').fadeIn(500);
+		hideAllButTargetDiv('#aboutmediv');
+
+		
 	});
 
 	$('#karmalink').click(function() {
-		/* Act on the event */
-		$('#rarefruitdiv').hide();
-		$('#quizdiv').hide();
-		$('#aboutmediv').hide();
-		$('#eucliddiv').hide();
-		$('#streetfighterdiv').hide();
-		$('#silentsongdiv').hide();
-		$('#home').hide();
-		$('#shoppingdiv').hide();
-		$('#karmadiv').fadeIn(500);
+		hideAllButTargetDiv('#karmadiv');
+		
 	});
 
 	$('#silentsonglink').click(function() {
-		/* Act on the event */
-		$('#rarefruitdiv').hide();
-		$('#quizdiv').hide();
-		$('#aboutmediv').hide();
-		$('#karmadiv').hide();
-		$('#eucliddiv').hide();
-		$('#streetfighterdiv').hide();
-		$('#home').hide();
-		$('#shoppingdiv').hide();
-		$('#silentsongdiv').fadeIn(500);
+		hideAllButTargetDiv('#silentsongdiv');
+	
 	});
 
 	$('#streetfighterlink').click(function() {
-		/* Act on the event */
-		$('#rarefruitdiv').hide();
-		$('#quizdiv').hide();
-		$('#aboutmediv').hide();
-		$('#karmadiv').hide();
-		$('#silentsongdiv').hide();
-		$('#eucliddiv').hide();
-		$('#home').hide();
-		$('#shoppingdiv').hide();
-		$('#streetfighterdiv').fadeIn(500);
+		hideAllButTargetDiv('#streetfighterdiv');
+	
 	});
 
 	$('#euclidlink').click(function() {
-		/* Act on the event */
-		$('#rarefruitdiv').hide();
-		$('#quizdiv').hide();
-		$('#aboutmediv').hide();
-		$('#karmadiv').hide();
-		$('#silentsongdiv').hide();
-		$('#streetfighterdiv').hide();
-		$('#home').hide();
-		$('#shoppingdiv').hide();
-		$('#eucliddiv').fadeIn(500);
+		hideAllButTargetDiv('#eucliddiv');
+	
 	});
 
 
-		$('#shoppinglink').click(function() {
-		/* Act on the event */
-		$('#rarefruitdiv').hide();
-		$('#quizdiv').hide();
-		$('#aboutmediv').hide();
-		$('#karmadiv').hide();
-		$('#silentsongdiv').hide();
-		$('#streetfighterdiv').hide();
-		$('#eucliddiv').hide();
-		$('#home').hide();
-		$('#shoppingdiv').fadeIn(500);
+	$('#shoppinglink').click(function() {
+		hideAllButTargetDiv('#shoppingdiv');
+		
 	});
 
-		$('#quizlink').click(function() {
-		/* Act on the event */
-		$('#rarefruitdiv').hide();
-		$('#aboutmediv').hide();
-		$('#karmadiv').hide();
-		$('#silentsongdiv').hide();
-		$('#streetfighterdiv').hide();
-		$('#eucliddiv').hide();
-		$('#home').hide();
-		$('#quizdiv').fadeIn(500);
+	$('#quizlink').click(function() {
+		hideAllButTargetDiv('#quizdiv');
+	
 	});
 
-		$('#rarefruitlink').click(function() {
-		/* Act on the event */
-		$('#quizdiv').hide();
-		$('#aboutmediv').hide();
-		$('#karmadiv').hide();
-		$('#silentsongdiv').hide();
-		$('#streetfighterdiv').hide();
-		$('#eucliddiv').hide();
-		$('#home').hide();
-		$('#rarefruitdiv').fadeIn(500);
+	$('#rarefruitlink').click(function() {
+		hideAllButTargetDiv('#rarefruitdiv');
+	
 	});
+
+	$('#twittlerlink').click(function() {
+		hideAllButTargetDiv('#twittlerdiv');
+	
+	});
+
+
 
 
 	$('h1').click(function() {
-		/* Act on the event */
+		hideAllButTargetDiv('#home');
+
+		});
+
+	function hideAllButTargetDiv(targetDiv){
 		$('#rarefruitdiv').hide();
 		$('#quizdiv').hide();
-		$('#aboutmediv').hide();
 		$('#karmadiv').hide();
 		$('#silentsongdiv').hide();
 		$('#streetfighterdiv').hide();
 		$('#eucliddiv').hide();
+		$('#home').hide();
 		$('#shoppingdiv').hide();
-		$('#home').fadeIn(500);
+		$('#aboutmediv').hide();
+		$('#twittlerdiv').hide();
 
-
-		});
+		$(targetDiv).fadeIn(500);
+	}
 
 });
 

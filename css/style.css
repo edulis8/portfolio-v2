@@ -127,7 +127,7 @@ ul {
 	height: 500px;
 }
 
-#quizdiv{
+#quizdiv, #twittlerdiv{
 	display: none;
 	padding: 0px;
 	
